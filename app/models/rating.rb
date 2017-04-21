@@ -7,6 +7,7 @@ class Rating
     @score = score
     @movie = movie
     @viewer = viewer
+    ALL << self
   end
 
   def self.all
